@@ -1,0 +1,738 @@
+{
+  "latch": {
+    "userName": {
+      "method": "id",
+      "value": "username"
+    },
+    "passKey": {
+      "method": "id",
+      "value": "password"
+    },
+    "loginBtn": {
+      "method": "id",
+      "value": "kc-login"
+    },
+    "logoutBtn": {
+      "method": "linkText",
+      "value": "Sign out"
+    }
+  },
+  "header": {
+    "pageHeader": {
+      "method": "css",
+      "value": ".page-header"
+    },
+    "signIn": {
+      "method": "linkText",
+      "value": "Sign In"
+    },
+    "videoLibrary": {
+      "method": "css",
+      "value": "a[class='dropdown-item'][href='/video-library']"
+    },
+    "training": {
+      "method": "css",
+      "value": "#catalog-dropdownMenuLink"
+    },
+    "pricing": {
+      "method": "linkText",
+      "value": "Pricing"
+    },
+    "courses": {
+      "method": "linkText",
+      "value": "Free Courses"
+    },
+    "aboutUs": {
+      "method": "linkText",
+      "value": "About"
+    },
+    "blog": {
+      "method": "linkText",
+      "value": "Blog"
+    },
+    "register": {
+      "method": "linkText",
+      "value": "Register"
+    },
+    "mylearning": {
+      "method": "linkText",
+      "value": "My Learning"
+    },
+    "lnkHeaderLearningPath": {
+      "method": "css",
+      "value": "a[class='dropdown-item'][href='/learning-paths']"
+    },
+    "lnkFooterLearningPath": {
+      "method": "css",
+      "value": ".list-item .list-group a[href='/learning-paths']"
+    }
+  },
+  "footer": {
+    "PTCU": {
+    },
+    "tutorials": {
+      "method": "xpath",
+      "value": "//div[text()='PTCU']/..//*[text()='Video Library']"
+    },
+    "enterprise": {
+      "eLearningLibraries": {
+        "method": "linkText",
+        "value": "eLearning Libraries"
+      },
+      "instructorLedTraining": {
+        "method": "linkText",
+        "value": "Instructor-Led Training"
+      },
+      "makerLabs": {
+        "method": "linkText",
+        "value": "MakerLabs"
+      },
+      "specializations": {
+        "method": "linkText",
+        "value": "Specializations"
+      },
+      "learningServices": {
+        "method": "linkText",
+        "value": "Learning Services"
+      }
+    },
+    "help": {
+      "forum": {
+        "method": "linkText",
+        "value": "Forum"
+      },
+      "support": {
+        "method": "linkText",
+        "value": "Support"
+      },
+      "resources": {
+        "method": "linkText",
+        "value": "Resources"
+      },
+      "whatsNew": {
+        "method": "linkText",
+        "value": "What's New"
+      },
+      "btnSkipWhatsNew":{
+        "method":"css",
+        "value":"a.link"
+      },
+      "contactUs": {
+        "method": "linkText",
+        "value": "Contact Us"
+      }
+    },
+    "info": {
+      "privacyPolicy": {
+        "method": "linkText",
+        "value": "Privacy Policy"
+      },
+      "termsOfUse": {
+        "method": "linkText",
+        "value": "Terms of Use"
+      }
+    }
+  },
+  "selectVersion": {
+    "method": "xpath",
+    "value": "//nav[@class='col-md-3 sideNav hidden-sm-down']//li[contains(text(),'5.0')]"
+  },
+  "catalogPage": {
+    "course": {
+      "method": "css",
+      "value": ".card"
+    },
+    "freeCoursesPageTitle": {
+      "method": "css",
+      "value": ".heading1"
+    },
+    "courseHeading": {
+      "method": "xpath",
+      "value": "//h4"
+    },
+    "courseImage": {
+      "method": "xpath",
+      "value": "//h4/../../img"
+    },
+    "courseBlock": {
+      "method": "css",
+      "value": ".card-block"
+    }
+  },
+  "tutorialHomePage": {
+    "family": {
+      "method": "css",
+      "value": "app-tutorials-home-page  nav > ul > li > a"
+    },
+    "searchTextbox": {
+      "method": "css",
+      "value": ".banner-searchInput"
+    },
+    "searchIcon": {
+      "method": "css",
+      "value": ".search-button"
+    },
+    "searchResetIcon": {
+      "method": "css",
+      "value": ".search-reset"
+    }
+  },
+  "tutorialLandingPage": {
+    "tutorialList": {
+      "method": "css",
+      "value": ".tutorial-list .tutorial-item"
+    },
+    "firstTutorial": {
+      "method": "css",
+      "value": ".tutorial-item .tutorial-thumbnail"
+    },
+    "searchTermMessageLabel": {
+      "method": "css",
+      "value": ".breadcrumbs>li:nth-child(1)>a"
+    },
+    "paginationStatusLabel": {
+      "method": "css",
+      "value": "pagination-status"
+    },
+    "currentPageNum": {
+      "method": "css",
+      "value": ".selected-page-number"
+    },
+    "featuredTutorials": {
+      "method": "css",
+      "value": "#featured"
+    },
+    "viewTutorial": {
+      "method": "css",
+      "value": "a.carousel-item:nth-child(1) > div:nth-child(1) > section:nth-child(2) > h4:nth-child(4)"
+    },
+    "featuredTutorialLaneTitle": {
+      "method": "css",
+      "value": ".featured-tutorial > h2:nth-child(1)"
+    },
+    "popularTutorialLaneTitle": {
+      "method": "css",
+      "value": "section.swimlane:nth-child(5) > app-categorized-tutorials:nth-child(1) > h2:nth-child(1)"
+    },
+    "popularSwimlane": {
+      "method": "css",
+      "value": "section.swimlane:nth-child(5) > app-categorized-tutorials:nth-child(1) > section:nth-child(2)"
+    },
+    "swimLaneItem": {
+      "method": "css",
+      "value": ".swimlane-item"
+    },
+    "recentTutorialLaneTitle": {
+      "method": "css",
+      "value": "section.swimlane:nth-child(6) > app-categorized-tutorials:nth-child(1) > h2:nth-child(1)"
+    },
+    "recentlyAddedSwimlane": {
+      "method": "css",
+      "value": "section.swimlane:nth-child(6) > app-categorized-tutorials:nth-child(1) > section:nth-child(2)"
+    }
+  },
+  "learningPathsPage": {
+    "learningPaths": {
+      "method": "css",
+      "value": "h3"
+    },
+    "lpImages": {
+      "method": "css",
+      "value": ".learning-path-thumbnail"
+    }
+  },
+  "searchTutorialPage": {
+    "noResultFound": {
+      "method": "css",
+      "value": ".tutorial-error h3"
+    },
+    "changeKeywords": {
+      "method": "css",
+      "value": ".tutorial-error p"
+    }
+  },
+  "tutorialViewPage": {
+    "tutorialContent": {
+      "method": "css",
+      "value": ".tutorial-content"
+    },
+    "breadcrumbsTutsView": {
+      "method": "css",
+      "value": ".breadcrumbs>li>a"
+    },
+    "tutorialTitle": {
+      "method": "css",
+      "value": ".tutorial-title"
+    },
+    "productName": {
+      "method": "css",
+      "value": ".tutorial-productName"
+    },
+    "tutorialType": {
+      "method": "css",
+      "value": "dd[class='icon-difficulty-icon']"
+    },
+    "tutorialAuthor": {
+      "method": "css",
+      "value": ".icon-author"
+    },
+    "libraryVideo": {
+      "method": "xpath",
+      "value": "//*[@id='video1_view']"
+    },
+    "tutorialText": {
+      "method": "css",
+      "value": ".tutorial-content>p"
+    }
+  },
+  "browseTutorials": {
+    "breadCrumbs": {
+      "method": "css",
+      "value": "app-breadcrumbs >ol> li> a"
+    },
+    "getTutorials": {
+      "method": "css",
+      "value": "app-tutorial-view-container > section > ul > li a"
+    },
+    "getThumbnail": {
+      "method": "css",
+      "value": "figure > img"
+    },
+    "getTutorialContent": {
+      "method": "css",
+      "value": "section"
+    },
+    "getTutorialTitle": {
+      "method": "css",
+      "value": "h3"
+    },
+    "getTutorialSummary": {
+      "method": "css",
+      "value": "dl >dd"
+    },
+    "browseFamily": {
+      "method": "css",
+      "value": "ul.familyList >li:first-child"
+    },
+    "browseProduct": {
+      "method": "css",
+      "value": "ul.familyList li>ul >li"
+    },
+    "productLink": {
+      "method": "css",
+      "value": "app-filters:nth-child(1)  app-classifications:nth-child(1) h3.sideNav-heading"
+    },
+    "languageLink": {
+      "method": "css",
+      "value": "nav.col-md-3.sideNav.hidden-sm-down app-filters:nth-child(1) app-language:nth-child(2) section.language-filters > h3.sideNav-heading"
+    },
+    "browseLanguage": {
+      "method": "css",
+      "value": ".languageList>li>a"
+    }
+  },
+  "userRegisterForm": {
+    "firstName": {
+      "method": "css",
+      "value": "#wrapper > div.container-box > div > div > div.cmnbox-shadow1 > form > div:nth-child(1) > div:nth-child(1) > div > input"
+    },
+    "lastName": {
+      "method": "css",
+      "value": "#wrapper > div.container-box > div > div > div.cmnbox-shadow1 > form > div:nth-child(1) > div:nth-child(2) > div > input"
+    },
+    "email": {
+      "method": "css",
+      "value": "#wrapper > div.container-box > div > div > div.cmnbox-shadow1 > form > div:nth-child(2) > div:nth-child(1) > div > input"
+    },
+    "country": {
+      "method": "css",
+      "value": "#wrapper > div.container-box > div > div > div.cmnbox-shadow1 > form > div:nth-child(2) > div:nth-child(2) > div > select"
+    },
+    "organization": {
+      "method": "css",
+      "value": "#wrapper > div.container-box > div > div > div.cmnbox-shadow1 > form > div:nth-child(3) > div:nth-child(1) > div > input"
+    },
+    "job": {
+      "method": "css",
+      "value": "#wrapper > div.container-box > div > div > div.cmnbox-shadow1 > form > div:nth-child(3) > div:nth-child(2) > div > select"
+    },
+    "password": {
+      "method": "css",
+      "value": "#wrapper > div.container-box > div > div > div.cmnbox-shadow1 > form > div:nth-child(4) > div:nth-child(1) > div > input"
+    },
+    "confirmPassword": {
+      "method": "css",
+      "value": "#wrapper > div.container-box > div > div > div.cmnbox-shadow1 > form > div:nth-child(4) > div:nth-child(2) > div > input"
+    },
+    "acceptTermOfUse": {
+      "method": "css",
+      "value": "#wrapper > div.container-box > div > div > div.cmnbox-shadow1 > form > div.row.signup-bottom > div > div:nth-child(1) > div.d-inline-block > label"
+    },
+    "acknowledgePrivacyPolicy": {
+      "method": "css",
+      "value": "#wrapper > div.container-box > div > div > div.cmnbox-shadow1 > form > div.row.signup-bottom > div > div:nth-child(2) > div.d-inline-block > label"
+    },
+    "cancelButton": {
+      "method": "css",
+      "value": "#wrapper > div.container-box > div > div > div.cmnbox-shadow1 > form > div.row.align-items-end.mt-md-2 > div:nth-child(1) > div > a"
+    },
+    "createAccountButton": {
+      "method": "css",
+      "value": "#wrapper > div.container-box > div > div > div.cmnbox-shadow1 > form > div.row.align-items-end.mt-md-2 > div.col-sm-6.text-right > button"
+    }
+  },
+  "registrationSuccess": {
+    "successMessage": {
+      "method": "css",
+      "value": "#wrapper > div.container-box > div > div > div > div.heading4"
+    },
+    "viewDashboardButton": {
+      "method": "css",
+      "value": "#wrapper > div.container-box > div > div > div > a"
+    },
+    "viewCourseButton": {
+      "method": "css",
+      "value": "#wrapper > div.container-box > div > div > div > div.text-center > a"
+    },
+    "whatsNewHeaderMessage": {
+      "method": "css",
+      "value": "body > app-root > simple-modal-holder > simple-modal-wrapper > div > whats-new > main > article > header > h1"
+    },
+    "whatsNewDesc": {
+      "method": "css",
+      "value": "body > app-root > simple-modal-holder > simple-modal-wrapper > div > whats-new > main > article > section > h2"
+    },
+    "whatsNewSkipModal": {
+      "method": "css",
+      "value": "body > app-root > simple-modal-holder > simple-modal-wrapper > div > whats-new > main > article > footer > a"
+    }
+  },
+  "profileSettings": {
+    "continueCourseButton": {
+      "method": "css",
+      "value": "body > app-root > app-setting > div > div.my-learning > div > div > div.row.align-items-end > div:nth-child(2) > a"
+    },
+    "email": {
+      "method": "css",
+      "value": "#profile > div > form > div:nth-child(2) > div:nth-child(1) > div > input"
+    }
+  },
+  "courseAuthor": {
+    "method": "xpath",
+    "value": "//*[text()='Course Author ']",
+    "createCourse": {
+      "method": "xpath",
+      "value": "//a[text()='Create Course']",
+      "courseTitle": {
+        "method": "xpath",
+        "value": "//input[@placeholder='Type here...']"
+      },
+      "courseSummary": {
+        "method": "xpath",
+        "value": "//textarea[@placeholder='Course Summary…']"
+      },
+      "createCourseSubmit": {
+        "method": "xpath",
+        "value": "//button[text()='Create Course ']"
+      },
+      "courseSections": {
+        "contributors": {
+          "method": "xpath",
+          "value": "//a[text()=' Contributors ']"
+        },
+        "milestones": {
+          "method": "xpath",
+          "value": "//a[text()='Milestones and Activities ']",
+          "addMilestone": {
+            "method": "xpath",
+            "value": "//a[text()='Add Milestone']",
+            "milestoneTitle": {
+              "method": "xpath",
+              "value": "//input[@placeholder='Milestone Title here…']"
+            },
+            "milestoneSummary": {
+              "method": "xpath",
+              "value": "//div[@contenteditable='true']"
+            },
+            "toggleMilestone": {
+              "method": "xpath",
+              "value": "//*[@class='card ']/a/span"
+            },
+            "toggleActivity": {
+              "method": "xpath",
+              "value": "//div[@class='card ']/div[not(@class='d-none')]/div/div[@class='learning-assets']//h3"
+            },
+            "addActivity": {
+              "method": "xpath",
+              "value": "//div[@class='card ']/div[not(@class='d-none')]//button[text()=' Add Activity ']",
+              "uploadVideoActivity": {
+                "method": "xpath",
+                "value": "//*[text()='UPLOAD VIDEO']/..//input[@type='file']"
+              },
+              "attachFile": {
+                "method": "xpath",
+                "value": "//*[text()='Attach Files']/..//input[@type='file']"
+              }
+            },
+            "activityTitle": {
+              "method": "xpath",
+              "value": "//input[@placeholder='Activity Title here…']"
+            },
+            "activityInstructions": {
+              "method": "xpath",
+              "value": "//div[@contenteditable='true']"
+            },
+            "actions": {
+              "method": "xpath",
+              "value": "//div[@class='card ']/div[not(@class='d-none')]/div/div[@class='learning-assets']//button[text()=' Actions ']"
+            },
+            "updateStatus": {
+              "method": "xpath",
+              "value": "//button[text()='Update']"
+            }
+          }
+        },
+        "pricing": {
+          "method": "xpath",
+          "value": "//a[text()='Pricing ']",
+          "priceDropdown": {
+            "method": "xpath",
+            "value": "//select//option[@value='FREE']/.."
+          },
+          "offerMentors": {
+            "method": "xpath",
+            "value": "//div[text()='Does this course offer Mentors?']/../..//select"
+          }
+        },
+        "submitForReview": {
+          "method": "xpath",
+          "value": "//a[text()='Submit for Review']",
+          "finalSubmit": {
+            "method": "xpath",
+            "value": "//button[text()='Submit']",
+            "submitConfirmation": {
+              "method": "xpath",
+              "value": "//button[text()='Close']"
+            }
+          }
+        }
+      }
+    },
+    "difficulty": {
+      "method": "xpath",
+      "value": "//label[text()= 'DIFFICULTY']/../select"
+    },
+    "language": {
+      "method": "xpath",
+      "value": "//label[text()= 'LANGUAGE']/../select"
+    },
+    "type": {
+      "method": "xpath",
+      "value": "//label[text()= 'TYPE']/../select"
+    },
+    "duration": {
+      "method": "xpath",
+      "value": "//label[text()= 'DURATION']/../input"
+    },
+    "organization": {
+      "method": "xpath",
+      "value": "//label[text()= 'ORGANIZATION']/..//button"
+    },
+    "PTCOrganization": {
+      "method": "xpath",
+      "value": "//span[text()=' PTC Inc. ']"
+    },
+    "allOrganizations": {
+      "method": "xpath",
+      "value": "//label[text()='ORGANIZATION']/..//a/span/span[2]"
+    },
+    "technology": {
+      "method": "xpath",
+      "value": "//label[text()= 'TECHNOLOGY']/..//button"
+    },
+    "browseVideo": {
+      "method": "xpath",
+      "value": "//*[text()='COURSE TRAILER']/../div/a/div"
+    },
+    "selectVideo": {
+      "method": "xpath",
+      "value": "//div[text()='Upload video']/..//input[@type='file']"
+    },
+    "uploadVideo": {
+      "method": "xpath",
+      "value": "//button[text()='Upload ']"
+    },
+    "selectThumbnail": {
+      "method": "xpath",
+      "value": "//label[text()='COURSE THUMBNAIL']/..//input[@type='file']"
+    },
+    "tags": {
+      "method": "xpath",
+      "value": "//label[text()='COURSE TAGS']/..//button"
+    },
+    "selectTrophy": {
+      "method": "xpath",
+      "value": "//label[text()='COURSE TROPHY']/..//input[@type='file']"
+    },
+    "savePage": {
+      "method": "xpath",
+      "value": "//button[@type='submit']"
+    }
+  },
+  "trainingLandingPage": {
+    "pageHeading": {
+      "method": "css",
+      "value": ".heading1"
+    },
+    "pageHeadingDescription": {
+      "method": "css",
+      "value": ".page-subheading"
+    },
+    "enterpriseTrainingBanner": {
+      "method": "css",
+      "value": ".enterprise-training-poster"
+    },
+    "btnEntTrainingLearnMore": {
+      "method": "linkText",
+      "value": "Learn More"
+    },
+    "offerings": {
+      "method": "xpath",
+      "value": ".//app-training/main/article/section[1]/nav/div"
+    },
+    "freeCourseBlock": {
+      "method": "css",
+      "value": ".free-course-block"
+    },
+    "videoLibraryBlock": {
+      "method": "css",
+      "value": ".free-tutorial-poster"
+    },
+    "learningPathBlock": {
+      "method": "css",
+      "value": ".learning-paths-poster"
+    },
+    "enterpriseELearningBlock": {
+      "method": "css",
+      "value": ".enterprise-elearning-text"
+    },
+    "trainingFeatures": {
+      "method": "xpath",
+      "value": ".//section[2]/ul/li"
+    }
+  },
+  "pricing": {
+    "lnkPricingHeader": {
+      "method": "css",
+      "value": "div.collapse > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+    },
+    "lnkPricingFooter": {
+      "method": "css",
+      "value": "li.list-item:nth-child(1) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)"
+    },
+    "txtPageHeading": {
+      "method": "css",
+      "value": ".heading1"
+    },
+    "txtHeadingDesc": {
+      "method": "css",
+      "value": ".row .heading15"
+    },
+    "btnViewOfferings": {
+      "method": "linkText",
+      "value": "View Offerings"
+    },
+    "tableWhatWeOffer": {
+      "method": "css",
+      "value": ".list-offer"
+    },
+    "sectionMarketingTitle": {
+      "method": "css",
+      "value": ".heading11"
+    },
+    "sectionMarketingDesc": {
+      "method": "css",
+      "value": ".para7"
+    },
+    "marketingCard": {
+      "method": "css",
+      "value": ".card"
+    },
+    "marketingCardImages": {
+      "method": "css",
+      "value": ".card-img-top"
+    },
+    "marketingCardTitle": {
+      "method": "css",
+      "value": ".card-title"
+    },
+    "marketingCardDesc": {
+      "method": "css",
+      "value": ".card-text"
+    },
+    "item1": {
+      "method": "css",
+      "value": "body > app-root > for-enterprise > div:nth-child(4) > section > div:nth-child(2) > div > div.list-offer > table > tbody > tr:nth-child(1) > th"
+    },
+    "item1Icon": {
+      "method": "css",
+      "value": "body > app-root > for-enterprise > div:nth-child(4) > section > div:nth-child(2) > div > div.list-offer > table > tbody > tr:nth-child(1) > td:nth-child(2) > div > i"
+    },
+    "secAbtOffering": {
+      "method": "css",
+      "value": ".container.offering-container"
+    },
+    "secAbtOfferingTitle": {
+      "method": "css",
+      "value": "body > app-root > for-enterprise > div:nth-child(4) > section > div.container.offering-container > p > span"
+    },
+    "blockELearning": {
+      "method": "css",
+      "value": "body > app-root > for-enterprise > div:nth-child(4) > section > div.container.offering-container > div:nth-child(2) > a:nth-child(1) > div > div.enterprise-offering-content > p.enterprise-offering-content-title"
+    },
+    "blockELearningLnk": {
+      "method": "css",
+      "value": "body > app-root > for-enterprise > div:nth-child(4) > section > div.container.offering-container > div:nth-child(2) > a:nth-child(1)"
+    },
+    "blockILTTitleTxt": {
+      "method": "css",
+      "value": "body > app-root > for-enterprise > div:nth-child(4) > section > div.container.offering-container > div:nth-child(2) > a:nth-child(2) > div > div.enterprise-offering-content > p.enterprise-offering-content-title"
+    },
+    "blockILTLnk": {
+      "method": "css",
+      "value": "body > app-root > for-enterprise > div:nth-child(4) > section > div.container.offering-container > div:nth-child(2) > a:nth-child(2)"
+    },
+    "blockMakerLabTitle":{
+      "method":"css",
+      "value":"body > app-root > for-enterprise > div:nth-child(4) > section > div.container.offering-container > div:nth-child(3) > a:nth-child(1) > div > div.enterprise-offering-content > p.enterprise-offering-content-title"
+    },
+    "lnkMakerLab":{
+      "method":"css",
+      "value":"body > app-root > for-enterprise > div:nth-child(4) > section > div.container.offering-container > div:nth-child(3) > a:nth-child(1)"
+    },
+    "blockTWXSpec":{
+      "method":"css",
+      "value":"body > app-root > for-enterprise > div:nth-child(4) > section > div.container.offering-container > div:nth-child(3) > a:nth-child(2) > div > div.enterprise-offering-content > p.enterprise-offering-content-title"
+    },
+    "lnkTWXSpec":{
+      "method":"css",
+      "value":"body > app-root > for-enterprise > div:nth-child(4) > section > div.container.offering-container > div:nth-child(3) > a:nth-child(2)"
+    },
+    "blockLearnServices":{
+      "method":"css",
+      "value":"body > app-root > for-enterprise > div:nth-child(4) > section > div.container.offering-container > div:nth-child(4) > a > div > div.enterprise-offering-content > p.enterprise-offering-content-title"
+    },
+    "lnkLearningServices":{
+      "method":"css",
+      "value":"body > app-root > for-enterprise > div:nth-child(4) > section > div.container.offering-container > div:nth-child(4) > a"
+    },
+    "blockTrainingAdvisor":{
+      "method":"css",
+      "value":"div .training-advisor h3"
+    },
+    "lnkBlockTrainingAdvisor":{
+      "method":"css",
+      "value":"div .training-advisor a"
+    }
+  }
+}

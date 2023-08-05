@@ -1,0 +1,57 @@
+{
+  "courses": [
+    {
+      "info": {
+        "title":"",
+        "summary":"",
+        "difficulty": "Beginner",
+        "language": "English",
+        "type": "Tutorial",
+        "duration": 2,
+        "organization": [
+          "PTC Inc."
+        ],
+        "technology": [
+          "ThingWorx",
+          "Vuforia Studio"
+        ],
+        "trailer": "com/ptcu/phoenix/assets/videos/teaser.mp4",
+        "thumbnail": "com/ptcu/phoenix/assets/images/thumbnail.png",
+        "tags": [
+          "AR",
+          "Business"
+        ],
+        "trophy": "com/ptcu/phoenix/assets/images/trophy.png"
+      },
+      "contributors":[{
+        "user":"SPECIAL EMAIL ACCOUNT",
+        "roles":["Mentor"]
+      }],
+      "miles": [
+        {
+          "activities": [
+            {
+              "type": "text"
+            },
+            {
+              "type": "video",
+              "asset": "com/ptcu/phoenix/assets/videos/activity.mp4"
+            },
+            {
+              "type": "document",
+              "asset":"com/ptcu/phoenix/assets/documents/activity.pdf"
+            }
+          ]
+        },
+        {
+          "activities": [
+            {
+              "type": "video",
+              "asset": "com/ptcu/phoenix/assets/videos/activity.mp4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

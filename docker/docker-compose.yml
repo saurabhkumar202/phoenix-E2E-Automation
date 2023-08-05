@@ -1,0 +1,6 @@
+version: '2'
+services:
+  iotu-e2e:
+    image: 'docker.ptcusys.com/ptcusys/phoenix-e2e-automation/app:${IMAGE_TAG}'
+    labels:
+      io.rancher.container.pull_image: always

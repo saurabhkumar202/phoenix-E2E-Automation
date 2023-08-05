@@ -1,0 +1,1 @@
+{"version":3,"file":"course.author.spec.js","sourceRoot":"","sources":["course.author.spec.ts"],"names":[],"mappings":";;AAAA,oEAA4D;AAE5D;IAEI,IAAI,gBAAgB,GAAC,IAAI,qCAAgB,EAAE,CAAC;IAC5C,IAAI,CAAC,IAAI,CAAC,uCAAuC,EAAE,GAAG,EAAE;QACpD,gBAAgB,CAAC,YAAY,EAAE,CAAC;IACpC,CAAC,CAAC,CAAC;AAEP,CAAC;AAPD,8CAOC;AAED,MAAM,CAAC,OAAO,GAAG,iBAAiB,CAAC"}

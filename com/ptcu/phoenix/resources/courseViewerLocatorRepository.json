@@ -1,0 +1,39 @@
+{
+  "course": {
+    "expandLeftMenu":{
+      "method":"css",
+       "value":".collapse-expand"
+    },
+    "allMilestones": {
+      "method":"css",
+      "value": ".milestone-scroll .cv-leftbar-listing"
+    },
+    "allActivitiesInAMilestone":{
+      "method":"css",
+      "value":".pos-rel > i, .icon-document-file-pdf"
+    },
+    "nextActivity":{
+      "method":"xpath",
+      "value":"//a[text()=' NEXT ']"
+    },
+    "allQuestions":{
+      "method":"xpath",
+      "value":"//question-view/div"
+    },
+    "completionPercentage":{
+      "method":"xpath",
+      "value":"//course-view/div/div[1]/div/div[2]"
+    },
+    "addProject":{
+      "method":"xpath",
+      "value":"//button[text()='Add Project ']"
+    },
+    "projectText":{
+      "method":"xpath",
+      "value":"//div[@contenteditable='true']"
+    }
+
+
+  }
+
+}

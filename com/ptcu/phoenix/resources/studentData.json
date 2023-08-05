@@ -1,0 +1,21 @@
+{
+  "Students": [
+  {"id":1,
+    "email":"precisionautomation@ptc.com",
+    "status":"completed",
+    "courseEnrolled":"Unpacking the Internet of Things"
+  },
+  {"id":2,
+    "email":"TBD",
+    "password":"TBD",
+    "status":"NA",
+    "courseToEnroll":"automation_test_Wooden withdrawal Frozen Small users",
+    "activities":
+    [
+      {
+        "type": "submittable",
+        "asset": "com/ptcu/phoenix/assets/submittable/submittable.pdf"
+      }
+    ]
+  }]
+}

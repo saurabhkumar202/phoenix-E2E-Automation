@@ -1,0 +1,27 @@
+{
+  "siteAdmin":{
+    "goToSiteAdmin":{
+      "method":"xpath",
+      "value":"//a[text()=' Site Admin ']"
+    },
+    "courseApprovals":{
+    "courseList":{
+      "method":"xpath",
+      "value":"//a[@class='course-author-title']",
+      "statusButton":{
+        "method":"xpath",
+        "value":"../../..//button"
+      },
+      "statusList":{
+        "method":"xpath",
+        "value":"..//a"
+      }
+    },
+      "statusChangeMessageButton":{
+        "method":"xpath",
+        "value":"//button[text()='Ok']"
+      }
+
+  }
+}
+}

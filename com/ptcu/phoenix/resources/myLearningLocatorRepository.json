@@ -1,0 +1,6 @@
+{
+  "activeCourses":{
+    "method":"xpath",
+    "value":"//h3[@class='card-header heading1 card-banner1']/../div//a[@class='heading1']"
+  }
+}

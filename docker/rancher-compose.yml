@@ -1,0 +1,18 @@
+version: '2'
+services:
+  iotu-e2e:
+    scale: 1
+    start_on_create: true
+    lb_config:
+      port_rules:
+      - hostname: ${DNS_NAME}.ptcusys.com
+        target_port: 8080
+    health_check:
+      healthy_threshold: 2
+      response_timeout: 2000
+      port: 80
+      unhealthy_threshold: 3
+      interval: 2000
+      strategy: recreate
+ 
+
